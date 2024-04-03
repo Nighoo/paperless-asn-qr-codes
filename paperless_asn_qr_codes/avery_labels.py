@@ -81,6 +81,15 @@ labelInfo: dict[str, LabelInfo] = {
         margin=(54, 36),
         pagesize=LETTER,
     ),
+    # 6 x 2 address labels
+    "avery4781": LabelInfo(
+        labels_horizontal=2,
+        labels_vertical=6,
+        label_size=(97 * mm, 42.30 * mm),
+        gutter_size=(0, 0),
+        margin=(8 * mm, 21 * mm),
+        pagesize=A4,
+    ),
 }
 
 RETURN_ADDRESS = 5167
